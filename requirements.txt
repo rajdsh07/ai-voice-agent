@@ -30,3 +30,5 @@ pydantic-settings>=2.6.0
 openai-whisper>=20231117
 gtts>=2.5.0
 pyttsx3  # Optional: offline TTS backup
+
+gunicorn>=21.0.0
