@@ -354,4 +354,10 @@ async def make_outbound_call(to_number: str, message: str):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import os
+    
+    # Get port from environment variable (Render sets this)
+    port = int(os.environ.get("PORT", 8000))
+    
+    print(f"Starting server on port {port}")
+    uvicorn.run(app, host="0.0.0.0", port=port)
