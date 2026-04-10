@@ -24,7 +24,17 @@ twilio_client = Client(settings.twilio_account_sid, settings.twilio_auth_token)
 # Initialize agent and voice components
 agent = CustomerServiceAgent()
 tts = TextToSpeech()
-stt = SpeechToText(model_size="base")
+
+# Lazy load STT (Whisper is heavy - only load when needed)
+stt = None
+
+def get_stt():
+    """Lazy load Speech-to-Text model"""
+    global stt
+    if stt is None:
+        print("Loading Whisper STT model...")
+        stt = SpeechToText(model_size="base")
+    return stt
 
 # Create recordings directory
 RECORDINGS_DIR = Path("data/recordings")
