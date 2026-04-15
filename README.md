@@ -6,12 +6,6 @@ An intelligent voice agent that handles real customer service phone calls using 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🎥 Demo
-
-[Watch the demo video](YOUR_VIDEO_LINK_HERE)
-
-![Dashboard Preview](assets/dashboard-preview.png)
-
 ---
 
 ## ✨ Features
@@ -414,11 +408,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👤 Author
 
-**Rajdeep Sharma**
+**Raj Doshi**
 
 - GitHub: [@rajdsh07](https://github.com/rajdsh07)
-- LinkedIn: [Your LinkedIn URL]
-- Email: your.email@example.com
+- LinkedIn: [\[LinkedIn URL\]](https://www.linkedin.com/in/raj-doshi-07/)
 
 ---
 
@@ -429,15 +422,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [Twilio](https://www.twilio.com/) for telephony infrastructure
 - [Qdrant](https://qdrant.tech/) for vector search capabilities
 - [OpenAI](https://openai.com/) for Whisper STT model
-
----
-
-## 📚 Resources
-
-- [Demo Video](YOUR_VIDEO_LINK)
-- [Architecture Deep Dive](BLOG_POST_LINK)
-- [API Documentation](docs/API.md)
-- [Deployment Guide](DEPLOYMENT_GUIDE.md)
 
 ---
 
